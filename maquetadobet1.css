@@ -1,0 +1,119 @@
+/* Hola maestro, hay muchos comentarios, ya que aún me encuentro aprendiendo html y css desde principiante*/
+
+
+
+body{
+    width:1000px; /* Establece el ancho del elemento*/
+    background: #000; /* Establece el color de fondo del elemento */
+    margin:0 auto; /* Establece el margen superior e inferior del elemento en 0 y el margen izquierdo y derecho de forma automática para centrarlo*/
+    margin: 0 auto; 
+    padding: 10px; /* Agrega un relleno alrededor del contenido del elemento */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  /* Tipo de letra del elemento */
+}
+
+nav{
+    height:80px; /* Establece la altura del elemento */
+    background:#228B22; 
+    display: flex; /* Establece el contenedor como un contenedor flexible */
+    align-items: center; /* Alinea los elementos hijos verticalmente en el centro del contenedor */
+    justify-content: space-between;   /* Distribuir elementos secundarios como clases hijos o parecido */
+    margin-bottom:10px; /* Establece un margen en la parte inferior del elemento */
+    padding:5px;
+    font-family:'Lucida Sans Unicode';
+}
+
+.bnav{
+    width:180px; 
+    height:60px; 
+    background-color: #fff; /* Establece el color de fondo del elemento en blanco, como nota extra recuerda que se usan los número exadecimales con en pensamiento lógico*/
+    border:none; /* Elimina cualquier borde alrededor del elemento */
+    border:1px solid #000; /* Establece un borde dependiendo */
+    font-size:15px; /* Establece el tamaño de la fuente del texto dentro del elemento*/
+    font-family:'Lucida Sans Unicode';
+}
+
+header{
+    height:300px;
+    background-color: #1E90FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    margin-bottom:10px;
+    font-family:'Lucida Sans Unicode';
+}
+
+.Banner{
+    width:800px;
+    height:290px;
+    background-color: #fff;
+    border:1px solid #000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px; /* Establece el tamaño de la fuente del texto dentro del elemento*/
+    font-family:'Lucida Sans Unicode';
+}
+
+.fix{
+    height:290px;
+    float: right;
+    display: inline-flex;
+    flex-direction: column; /* Establece la dirección principal de los elementos flexibles como la columna "que hay" */
+    justify-content: space-between;
+    margin-left:10px;
+    font-family:'Lucida Sans Unicode';
+}
+
+.top{
+    width:180px;
+    height:90px;
+    background-color: #fff;
+    border:1px solid #000;
+    font-size:18px;
+    font-family:'Lucida Sans Unicode';
+}
+
+aside{
+    width:200px;
+    height:460px;
+    padding:10px;
+    background-color: #fff;
+    border:1px solid #000;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:20px;
+    font-family:'Lucida Sans Unicode';
+}
+
+main{
+    height:500px;
+    background-color: #DEB887;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:10px;
+    font-family:'Lucida Sans Unicode';
+}
+
+article{
+    width:500px;
+    height:460px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family:'Lucida Sans Unicode';
+}
+
+footer{
+    height:50px;
+    background-color: #FFA500;
+  
+}
